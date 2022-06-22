@@ -19,7 +19,7 @@
                 display: block;
             }
             .video-preview{
-                width: 300px;
+                width: 300px; 
                 display: inline-block;
                 vertical-align: top;
                 margin-right: 15px;
@@ -28,16 +28,11 @@
                 margin-top: 0;
                 font-size: 14px;
                 font-weight: 500;
-                margin-bottom: px;
+                margin-bottom: 15px;
             }
-            .channel-picture{
-                display: inline-block;
-                width: 50px;
-                vertical-align: top;
-            }
-            .video-info{
-                display: inline-block;
-                width: 200px;
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
             }
             .profile-picture{
                 width: 40px;
@@ -65,12 +60,12 @@
        
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnail-1.webp">
+                <img class="thumbnail" src="images/thumbnail-1.webp">
             </div>
 
-            <div>
+            <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="channel-1.jpeg">
+                    <img class="profile-picture" src="images/channel-1.jpeg">
                 </div>
                 <div class="video-info">
                     <p class="video-title">
@@ -88,12 +83,12 @@
 
         <div class="video-preview">
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnail-2.webp">
+                <img class="thumbnail" src="images/thumbnail-2.webp">
             </div>
 
-            <div>
+            <div class="video-info-grid">
                 <div class="channel-picture">
-                    <img class="profile-picture" src="channel-1.jpeg">
+                    <img class="profile-picture" src="images/channel-2.jpeg">
                 </div>
                 <div class="video-info">
                     <p class="video-title">
